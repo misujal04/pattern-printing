@@ -1,9 +1,9 @@
-num=5
+num=5   #variable declaire
 for i in range(1,num+1):
     for j in range(num-i):
-        print(" ",end=" ")
+        print("",end=" ")
     for k in range(i):
         print("*",end=" ")
-    print( )
+    print()
 
         
